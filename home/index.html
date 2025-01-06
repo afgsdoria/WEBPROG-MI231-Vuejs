@@ -10,10 +10,14 @@
 
 <p>The 'message' text from the Vue instance is put together with another text and a JavaScript expression. The JavaScript expression creates a random integer between 1 and 6.</p>
 
-<div id="app"></div>
+<div id="app">
+  {{ message }} <br>
+  {{'Random number: ' + Math.ceil(Math.random()*6) }}
+</div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/view.js"></script>
+<script src="js/vue.js"></script>
+
 
 
 </body>
