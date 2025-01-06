@@ -4,3 +4,88 @@
     font-size: x-large;
     background-color: rgb(144, 167, 238);
   }
+
+  body {
+    background-color: #ECEAA7;
+    font-family: 'Cooper BT', serif;
+    font-weight: bold;
+}
+
+.Home-container {
+    background-color: #329F66;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 45%;
+    max-width: 480px;
+    margin: 180px auto;
+    display: flex;
+    flex-direction: column; /* Change to column for smaller screens */
+    align-items: center;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Home-container h1, .Home-container p {
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .Home-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .Home-container h1, .Home-container p {
+        text-align: justify;
+    }
+
+    .Home-container button {
+        width: 85%; /* Make the button full width */
+    }
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Home-container h1 {
+    font-size: 60px;
+    margin: 15px 10px 5px 20px;
+    color: #ECEAA7;
+  }
+.Home-container p {
+    font-size: 35px;
+    margin: 0 20px;
+    color: #ECEAA7;
+  }
+
+.Home-container button {
+    background-color: #3F2B27;
+    color: #329F66;
+    border: none;
+    width: 85%;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Cooper BT', serif;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.Home-container button:hover {
+    color: #ECEAA7;
+}
+
+
