@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/flexbox-grid.css?version=0.1">
     <link rel="stylesheet" href="css/pink.css?version=0.1">
+     <link rel="stylesheet" href="css/images.css?version=0.1">
 </head>
 <body>
 
@@ -20,10 +21,18 @@
   </div>
 </div>
 
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<div id="app2">
+  <div>
+    <figure v-for="x in manyFoods">
+      <img v-bind:src="x.url">
+      <figcaption>{{ x.name }}</figcaption>
+    </figure>
+  </div>
+  
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="js/vue.js"></script>
-
-
+<script src="js/images.js"></script>
+  
 <div class="Home-container">
     <div class="content-wrapper"> 
         <h1>Hi! I am Atasha!</h1>
