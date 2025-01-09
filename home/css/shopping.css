@@ -1,27 +1,40 @@
 #app3 {
-      border: dashed black 1px;
-      display: inline-block;
-      padding: 0 20px;
-    }
-    #app3 label, #app3 li {
-      padding: 5px;
-      border-radius: 5px;
-    }
-    #app3 label:hover, #app3 li:hover {
-      cursor: pointer;
-      background-color: lightgray;
-    }
-    ul {
-      list-style-type: none;
-    }
-    li {
-      margin: 2px;
-      background-color: rgb(211, 254, 211);
-    }
-    .impClass {
-      background-color: rgb(255, 202, 202);
-    }
-    #ulFound li {
-      text-decoration: line-through;
-      background-color: rgb(230,230,230);
-    }
+  border: 1px dashed black;
+  display: inline-block;
+  padding: 20px;
+}
+
+#app3 label, 
+#app3 li {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#app3 label:hover, 
+#app3 li:hover {
+  background-color: lightgray;
+}
+
+#app3 ul {
+  list-style-type: none;
+}
+
+#app3 li {
+  margin: 2px;
+  background-color: #d3fef1;
+}
+
+#app3 .impClass {
+  background-color: #ffcace;
+}
+
+#app3 #ulFound li {
+  text-decoration: line-through;
+  background-color: #e6e6e6;
+}
+
+#app3 label:focus, 
+#app3 li:focus {
+  outline: 2px solid blue; 
+}
