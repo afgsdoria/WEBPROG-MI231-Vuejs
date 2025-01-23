@@ -92,17 +92,6 @@
             <li>Watching baking videos</li>
         </ul>
     </div>
-    
-    <div>
-        <h3>GALLERY</h3>
-        <div id="images">
-                <img src="images/Family.jpg" alt="College Friends">
-                <img src="images/BELUCA Photo Op.jpg" alt="BELUCA Photo Op">
-                <img src="images/JS Friends.jpg" alt="Junior High School Friends">
-                <img src="images/SHS Friends.JPG" alt="Senior High School Friends">
-                <img src="images/Recognition 2023-2024.jpg" alt="College Recognition Rite">
-        </div>
-    </div>
 </div>
 </template>
 
