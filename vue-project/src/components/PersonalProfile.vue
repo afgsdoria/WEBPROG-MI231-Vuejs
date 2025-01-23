@@ -118,4 +118,8 @@
     background-color: #DBD8D1;
     font-family: Arial, sans-serif;
   }
+  a {
+    font-family: Arial, sans-serif;
+    color: black;
+  }
 </style>
