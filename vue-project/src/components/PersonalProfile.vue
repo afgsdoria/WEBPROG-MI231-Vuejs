@@ -1,17 +1,16 @@
 <template>
-  <div class="container">
+  <div>
     <header>
       <h1>Personal Profile Web page</h1>
     </header>
     <main>
-      <section class="main-content">
-        <div class="flex-container">
-          <div class="profile_container">
-            <img id="profile" class="profile" src="images/Profile.jpg" alt="Atasha Frances Gayle Doria LinkedIn Profile" width="200" height="200">
-            <div class="text_container">
-              <h1 id="fullname">ATASHA FRANCES GAYLE DORIA</h1>
-              <p id="hi">Hi! I am Atasha Frances Gayle Doria. Get to know more about me on this website.</p>
-              <p id="course">I am currently a 2nd Year BSIT-MI student at Asia Pacific College, taking a Web Programming course this Term 2 of the Academic Year 2024-2025, alongside other Information Technology-related courses.</p>
+      <section>
+        <div>
+          <div>
+            <div>
+              <h1>ATASHA FRANCES GAYLE DORIA</h1>
+              <p>Hi! I am Atasha Frances Gayle Doria. Get to know more about me on this website.</p>
+              <p>I am currently a 2nd Year BSIT-MI student at Asia Pacific College, taking a Web Programming course this Term 2 of the Academic Year 2024-2025, alongside other Information Technology-related courses.</p>
             </div>
           </div>
 
@@ -105,7 +104,7 @@
           </div>
         </div>
       </section>
-      <aside class="sidebar">
+      <aside>
       </aside>
     </main>
     <footer>Asia Pacific College</footer>
@@ -115,7 +114,8 @@
 <script></script>
 
 <style>
-    background-color: beige;
+  body {
+    background-color: #DBD8D1;
     font-family: serif;
   }
 </style>
