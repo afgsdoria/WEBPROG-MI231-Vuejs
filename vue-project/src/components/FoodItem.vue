@@ -1,27 +1,29 @@
 <template>
     <div>
-        <h2>{{ name }}</h2>
-        <p>{{ message }}</p>
+      <h2>{{ name }}</h2>
+      <p>{{ message }}</p>
     </div>
-</template>
-
-<script>
-export default {
+  </template>
+  
+  <script>
+  export default {
     data() {
-        return {
-            name: 'Apples',
-            message: 'I like apples'
-        }
+      return {
+        name: 'Apples',
+        message: 'I like apples'
+      }
     }
-};
-</script>
+  };
+  </script>
+  
+  <style>
 
-style>
-  #app > div {
+#app > div {
         border: dashed black 1px;
         display: inline-block;
         margin: 10px;
         padding: 10px;
         background-color: lightgreen;
     }
-</style>  
+    
+</style>
