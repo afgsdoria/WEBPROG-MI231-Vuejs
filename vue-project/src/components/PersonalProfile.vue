@@ -116,6 +116,6 @@
 <style>
   body {
     background-color: #DBD8D1;
-    font-family: serif;
+    font-family: 'Aptos', serif;
   }
 </style>
