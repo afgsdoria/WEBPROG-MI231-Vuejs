@@ -38,8 +38,7 @@
           </a>
         </div>
         <div class="col-6 col-md-3">
-          <img src="images/HomePage-img.png" class="img-fluid" alt="Graduation Picture for Home Page">
-        </div>
+          <img src="https://afgsdoria.github.io/WEBPROG-Personal-Website/home/images/HomePage-img.png" class="img-fluid" alt="Graduation Picture for Home Page">        </div>
       </div>
     </div>
   </body>
