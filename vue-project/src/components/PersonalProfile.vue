@@ -1,125 +1,162 @@
 <template>
-  <div>
-    <header>
-      <h1>Personal Profile Web page</h1>
-    </header>
-    <main>
-      <section>
-        <div>
-          <div>
-            <div>
-              <h1>ATASHA FRANCES GAYLE DORIA</h1>
-              <p>Hi! I am Atasha Frances Gayle Doria. Get to know more about me on this website.</p>
-              <p>I am currently a 2nd Year BSIT-MI student at Asia Pacific College, taking a Web Programming course this Term 2 of the Academic Year 2024-2025, alongside other Information Technology-related courses.</p>
-            </div>
-          </div>
-
-          <div>
-            <h3>EDUCATION</h3>
-            <p>College</p>
-            <ul>
-              <li><a href="https://www.apc.edu.ph/">Asia Pacific College</a></li>
-              <li>Program: Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies</li>
-              <li>August 2023-Present</li>
-            </ul>
-            <p>Senior High School</p>
-            <ul>
-              <li><a href="https://www.apc.edu.ph/">Asia Pacific College</a></li>
-              <li>Program: Science, Technology, Engineering, and Information and Technology</li>
-              <li>August 2021-2023</li>
-            </ul>
-            <p>Junior High School</p>
-            <ul>
-              <li><a href="https://sttheodoreschool.com/">St. Theodore School, Inc.</a></li>
-              <li>2017-2021</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>ACHIEVEMENTS</h3>
-            <ul>
-              <li>Academic Awardee: Academic Year 2023-2024</li>
-              <li>Successful Paper Presentation
-                5th International Conference of the Arts and Sciences
-                College of Arts and Sciences, Cebu Normal University: "Pagsusuri ng Code-switching sa Klase ng Biology sa Asia Pacific College-Senior High School"
-              </li>
-              <li>Graduated senior high school with High Honors</li>
-              <li>Finished junior high school with Honors</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>IT EXPERIENCE</h3>
-            <table>
-              <tr>
-                <th>Project Title</th>
-                <th>Overview</th>
-                <th>Year</th>
-              </tr>
-              <tr>
-                <td>FurBnB</td>
-                <td>Designed a web and mobile application using Figma.</td>
-                <td>2024</td>
-              </tr>
-              <tr>
-                <td>VetLink</td>
-                <td>Developed a mobile application's GUI using Android Studio.</td>
-                <td>2024</td>
-              </tr>
-              <tr>
-                <td>Database for Non-life Insurance Company</td>
-                <td>Designed ERD for a non-life insurance company in the Philippines using MySQL.</td>
-                <td>2024</td>
-              </tr>
-              <tr>
-                <td>Laro Tayo</td>
-                <td>Developed a web-based game application using Python.</td>
-                <td>2023</td>
-              </tr>
-              <tr>
-                <td>Paws n' Friends</td>
-                <td>Developed a responsive web application using HTML, CSS, and JavaScript.</td>
-                <td>2023</td>
-              </tr>
-            </table>
-          </div>
-
-          <div>
-            <h3>GOALS AND DREAMS IN LIFE</h3>
-            <p>I wish to graduate by 2027, and to graduate with flying colors is a great bonus. I also want to pass future certification exams that I will take and have a job in an IT company with a healthy working environment, which will be one of my stepping stones to achieving my other goals in life, such as having my own house and car. Additionally, I wish to pursue my passion for baking, study pastry classes here in the Philippines and abroad, and have a related business.</p>
-            <p>I dream of traveling the world and exploring different cultures because it will be a great experience and help shape me into a better person. I also dream of attending fan meetings and concerts of my idols because it feels fulfilling and brings me happiness.</p>
-          </div>
-
-          <div>
-            <h3>HOBBIES AND INTEREST</h3>
-            <ul>
-              <li>Listening to Thai music</li>
-              <li>Watching Thai series and movies</li>
-              <li>Watching baking videos</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>GALLERY</h3>
-          </div>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atasha's Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gUgBZKDx2Od3+F9Q+IGnaOTforBas3jDj7699rhc+9cd5JzYdCbgAstrVFlOz7XwMWvrK+pdwRjqGY0vNqhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css?version=0.1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h2>HELLO,</h2>
+          <h1>I AM ATASHA!</h1>
+          <p>My full name is Atasha Frances Gayle Doria, but you can call me Atasha for short.
+          <br>
+          <br>
+          I am interested in many things, and we might share something in common. To learn more about me, feel free to browse my website.
+          </p>
+          <a href="https://afgsdoria.github.io/WEBPROG-Personal-Website/home/education.html" class="education-icons" data-tooltip="I, AS A STUDENT...">
+            <span class="material-symbols-outlined">school</span>
+          </a>
+          <a href="https://afgsdoria.github.io/WEBPROG-Personal-Website/home/favorite.html" class="favorite-icons" data-tooltip="LET'S UNLOCK...">
+            <span class="material-symbols-outlined">favorite</span>
+          </a>
+          <a href="https://afgsdoria.github.io/WEBPROG-Personal-Website/home/contact.html" class="comment-icons" data-tooltip="CONNECT...">
+            <span class="material-symbols-outlined">mode_comment</span>
+          </a>
+          <a href="https://afgsdoria.github.io/WEBPROG-Personal-Website/home/references.html" class="search-icons" data-tooltip="SOURCES">
+            <span class="material-symbols-outlined">search</span>
+          </a>
         </div>
-      </section>
-      <aside>
-      </aside>
-    </main>
-    <footer>Asia Pacific College</footer>
-  </div>
+        <div class="col-6 col-md-3">
+          <img src="images/HomePage-img.png" class="img-fluid" alt="Graduation Picture for Home Page">
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
 </template>
 
-<script></script>
+<script>
+  // Add your JavaScript code here
+</script>
 
 <style>
   body {
     background-color: #DBD8D1;
-    font-family: Arial, sans-serif;
   }
+
+  h2 {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-size: 64px;
+    font-style: normal;
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-size: 96px;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .container {
+    clear: both;
+    padding-left: 100px;
+    padding-right: 5px;
+  }
+  
+  .col-md-9 {
+    float: left;
+    width: 40%;
+    padding: 75px;
+  }
+  
+  .col-md-3 {
+    float: right;
+    width: 40%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .col-md-9, .col-md-3 {
+      width: 90%;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .col-md-3 {
+      text-align: left;
+    }
+  }
+  
+  .img-fluid {
+    max-width: 68%;
+    height: auto;
+    object-fit: cover;
+  }
+
   a {
-    font-family: Arial, sans-serif;
-    color: black;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 100%; 
+    background-color: #31589B; 
+    color: #DBD8D1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20x;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .material-symbols-outlined {
+    font-size: 20px;
+  }
+  
+  a:hover::after {
+    content: attr(data-tooltip); 
+    position: absolute; 
+    top: 120%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #31589B; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    white-space: nowrap; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+    pointer-events: none; 
+    font-family: "Poppins", serif;
+  }
+  
+  a:hover::after {
+    opacity: 1;
   }
 </style>
