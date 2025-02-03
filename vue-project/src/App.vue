@@ -1,12 +1,14 @@
 <template>
   <h1>Food</h1>
+  <country/>
   <food-item/>
-  <food-item2/>
-  <food-item/> <br>
-  <personal-profile/> <br>
+  <food-item/>
+  <food-item/>
+  <comment-form/>
+  <comment/> <br>
+  <personal-profile/>
+   
+
 </template>
 
 <script></script>
-
-<style>
-</style>           
