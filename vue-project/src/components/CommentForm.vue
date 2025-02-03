@@ -55,6 +55,7 @@
   <style scoped>
   /* Basic styling - Customize as needed */
   .form-group {
+    border: none;
     margin-bottom: 1rem;
     background-color: #DBD8D1;
   }
