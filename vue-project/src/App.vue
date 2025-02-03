@@ -1,9 +1,9 @@
 <template>
   <h1>Food</h1>
+  <food-item/>
+  <food-item/>
+  <food-item/>
   <country/>
-  <food-item/>
-  <food-item/>
-  <food-item/>
   <br>
   <comment-form/> <br>
   <comment/> <br>

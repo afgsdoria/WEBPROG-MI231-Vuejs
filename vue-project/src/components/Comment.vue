@@ -10,6 +10,7 @@
   <style>
     #app > div {
       border: dashed black 1px;
+      font-family: "Poppins", serif;
       display: inline-block;
       margin: 10px;
       padding: 10px;

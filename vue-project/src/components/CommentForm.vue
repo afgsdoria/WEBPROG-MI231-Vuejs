@@ -64,15 +64,14 @@
   }
   
   .form-control {
-    width: 100%;
+    width: 90%;
     padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
   }
   
   .btn {
     padding: 0.5rem 1rem;
-    background-color: #007bff;
+    background-color: #31589B;
+    font-family: "Poppins", serif;
     color: white;
     border: none;
     border-radius: 4px;
