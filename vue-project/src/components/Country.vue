@@ -14,7 +14,9 @@
       margin: 10px;
       padding: 10px;
       background-color: lightyellow;
-      font-family: "Poppins", serif;
+    }
+    #app > li{
+        font-family: "Poppins", serif;
     }
   </style>
 
