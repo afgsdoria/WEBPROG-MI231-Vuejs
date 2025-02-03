@@ -56,6 +56,7 @@
   /* Basic styling - Customize as needed */
   .form-group {
     margin-bottom: 1rem;
+    background-color: #DBD8D1;
   }
   
   label {

@@ -45,7 +45,7 @@ onMounted(() => {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: lightyellow;
+    background-color: #DBD8D1;
   }
   li {
     font-family: "Poppins", serif;
