@@ -16,6 +16,9 @@
       padding: 10px;
       background-color: lightyellow;
     }
+    li {
+        font-family: "Poppins", serif;
+    }
   </style>
 
 <script setup>
@@ -43,5 +46,8 @@ onMounted(() => {
     margin: 10px;
     padding: 10px;
     background-color: lightyellow;
+  }
+  li {
+    font-family: "Poppins", serif;
   }
 </style>
